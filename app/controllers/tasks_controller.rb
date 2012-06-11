@@ -2,16 +2,17 @@ class TasksController < ApplicationController
   include ActionController::MimeResponds
   include ActionController::Helpers
   include ActionController::Cookies
+  include ActionController::ImplicitRender
   
   
   # GET /tasks
   # GET /tasks.json
   def index
     @tasks = Task.all
-    respond_to do |format|
-      format.json { render }
-      format.xml {render xml: @tasks}
-    end
+    #respond_to do |format|
+    #  format.json { render }
+    #  format.xml {render xml: @tasks}
+    #end
   end
 
   # GET /tasks/1
