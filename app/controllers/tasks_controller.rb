@@ -1,5 +1,9 @@
 class TasksController < ApplicationController
   include ActionController::MimeResponds
+  include ActionController::Helpers
+  include ActionController::Cookies
+  
+  
   # GET /tasks
   # GET /tasks.json
   def index
