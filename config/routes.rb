@@ -1,4 +1,6 @@
 RailsAPI::Application.routes.draw do
+  resources :tasks, except: :edit
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
