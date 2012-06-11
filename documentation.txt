@@ -1,0 +1,8 @@
+https://github.com/spastorino/rails-api
+
+
+comparatie rails middleware API stack and rails middleware full stack:
+
+https://github.com/spastorino/rails-api/blob/master/lib/rails-api/action_controller/api.rb versus
+https://github.com/rails/rails/blob/master/actionpack/lib/action_controller/base.rb
+
